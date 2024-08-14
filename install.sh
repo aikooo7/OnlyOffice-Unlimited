@@ -17,6 +17,9 @@ from Crypto.PublicKey import RSA
 from shutil import copyfile
 import json
 import codecs
+import time
+
+time.clock = time.time
 
 hexlify = codecs.getencoder('hex')
 
